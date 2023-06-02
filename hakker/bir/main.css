@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-image: url();
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1d282e;
+    padding: 10px;
+    align-items: center;
+    width:100%;
+}
+.ulli ul{
+    list-style:none;
+    display: flex;
+}
+.ulli ul li{
+    margin-right: 60px;
+}
+.ulli ul li a{
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 600;
+    color: #f18e39;
+}
+.sign{
+    display: flex;
+}
+.sign a{
+    text-decoration: none;
+    color: #f18e39;
+    font-size: 30px;
+    font-weight: 400;
+    margin-right:30px;
+}
+.btn1{
+    border: 2-px;
+    background-color: #f18e39;
+    color: #1d282e;
+    padding: 5px 20px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: 30px;
+
+}
+/* uchunchi */
+.opshi{
+    background-image: url(img/wallpapersden.com_colorful-neon-bubbles_1920x1080.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.uchinchi{
+
+    margin-top: 462px;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    padding: 10%;
+}
+.uchinchi2{
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    padding: 10%;
+}
+.uchinchi2 .texts{
+    margin-top: 2%;
+    width: 40%;
+    margin-right: 16%;
+}
+
+
+.uchinchi .texts{
+    margin-top: 2%;
+    width: 40%;
+    margin-right: 16%;
+}
+.uchinchi .texts h1{
+    margin-bottom: 5%;
+    font-size: 30px;
+    font-weight: 600;
+    color: wheat;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.uchinchi .texts p{
+    color: aliceblue;
+    font-size: 19px;
+    font-weight: 400;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    list-style:armenian;
+
+}
+.uchinchi2 .texts2 h1{
+    margin-bottom: 5%;
+    font-size: 30px;
+    font-weight: 600;
+    color: wheat;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.uchinchi2 .texts2 p{
+    color: aliceblue;
+    font-size: 19px;
+    font-weight: 400;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    list-style:armenian;
+
+}
+.foto2{
+    margin-right: 19%;
+}
+.jahongir img{
+    margin-bottom: 20px;
+}
+.jahongir .box{
+    background-color: #1d282e;
+    width: 60%;
+    text-align: center;
+    padding: 40px;
+    margin-left: 280px;
+}
+.jahongir{
+    padding: 50px;
+    background-image: url(img/matrix-356024_1280.webp);
+}
+.jahongir p{
+    width: 90%;
+    font-size: 20px;
+    font-weight: 600;
+    color: antiquewhite;
+    margin-left: 30px;
+}
+.jahongir h1{
+    margin-bottom: 20px;
+    font-size: 33px;
+    color: aquamarine;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+}
+
+
+
+
+
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color:#f18e39;
+    padding: 20px;
+  }

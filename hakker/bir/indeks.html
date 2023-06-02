@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xakkerlar haqida</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="slide.css">
+
+</head>
+<body>
+    <!-- katta kantener -->
+    <div class="cantener" >
+        <!-- navbar -->
+        <nav>
+            <!-- logo -->
+            <img class="logo" src="img/46684469.jpg" width="240ox" height="180px " alt="">
+            <!-- ul li -->
+            <div class="ulli">
+                <ul>
+                    <li><a href="indeks.html">Uy</a></li>
+                    <li><a href="#asdf">Malumot</a></li>
+                    <li><a href="vidoe.html">Vidoe</a></li>
+                    <li><a href="aloqa.html">Aloqa</a></li>
+                </ul>
+            </div>
+            <div class="sign">
+                <a href="sigin.html">sign-up</a>
+                <button class="btn1" type="button" >button</button>
+            </div>
+        </nav>
+        <div>
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                <div class="numbertext">1 / 3</div>
+                <img class="" src="img/ba3d7a19-6aac-485d-8eea-2d7fd9458b16.webp" style="width:140%" height="500vh" >
+                <div class="text">siz bilmagan Malumotlar</div>
+                </div>
+                <div class="mySlides fade">
+                <div class="numbertext">2 / 3</div>
+                <img src="img/f32649718d35e4fe0b3121d5a107ac67.jpg" style="width:140%" height="500vh">
+                <div class="text">xakkerlar xaqoda videolar </div>
+                </div>
+    
+                <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="img/w60w4b8v3ef9oo9w6ragb708eopos343.jpg" style="width:140%" height="500vh">
+                <div class="text">xakkerlar xujumlardan ximoyalanish </div>
+                </div>
+    
+                </div>
+                <br>
+    
+                <div style="text-align:center">
+                <span class="dot"></span> 
+                <span class="dot"></span> 
+                <span class="dot"></span> 
+                </div>
+    
+                <script>
+                let slideIndex = 0;
+                showSlides();
+    
+                function showSlides() {
+                let i;
+                let slides = document.getElementsByClassName("mySlides");
+                let dots = document.getElementsByClassName("dot");
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";  
+                }
+                slideIndex++;
+                if (slideIndex > slides.length) {slideIndex = 1}    
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex-1].style.display = "block";  
+                dots[slideIndex-1].className += " active";
+                setTimeout(showSlides, 2000); // Change image every 2 seconds
+                }
+                </script>
+        </div>
+        <div class="opshi">
+            <div class="uchinchi" id="asdf">
+                <div class="texts">
+                    <h1>Haker</h1>
+                    <p>Xaker (inglizcha: hack — yaʼni chopish¸ boltalash) — informatsion texnologiyalar boʻyicha favqullotda malakaga ega mutaxassis. Kompyuter sistemasini oʻta chuqur biladigan shaxs. Avval boshdan xaker degan atama kompyuter dasturlarini tezda yoza oladigan, yoki qurumlarni tezda soʻzlay oladigan dasturchilarga nisbatan ishlatilgan. Xakerlar asosan 3 turga toifalashadi: Black hat, White hat va Grey hat.
+
+Hack soʻzi hippilar jargonida parvarishlanib, dunyo lugʻatiga kirgan. Hozir xaker soʻzi kreker, yaʼni buzgʻunchi maʼnosida notoʻgʻri ishlatiladi.
+
+Xakerlar oʻz siyosiy simpatiya va antipatiyalariga koʻra harakat qilib kompyuter dasturlariga ataylabdan ziyon yetkazishadi. Amerika Qoʻshma Shtatlari va Yevropada xakerlik kiberjinoyat tarzida malakalanadi.</p>
+                </div>
+                <div class="foto">
+                    <img src="img/hqdefault.jpg" alt="">
+                </div>
+            </div>
+            <div class="">
+                <div class="uchinchi2">
+                    <div class="foto2">
+                        <img src="img/hacker-man-computer-dark-room-steals-data-33121439.jpg" width="500px" height="400px" alt="">
+                    </div>
+                    <div class="texts2">
+                        <h1>Haflar</h1>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium, ipsum. Quo nihil iure quaerat nesciunt laborum neque odio, quas rem eos sit, ab molestiae architecto culpa provident eaque ex atque debitis accusantium? Tempore ipsum rerum velit aperiam, aspernatur ad nisi consectetur voluptatem alias placeat natus architecto dolore doloremque expedita minus Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis aperiam nemo eligendi excepturi ullam quaerat rem nulla enim, iusto dolore.. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi atque iure nobis minima reprehenderit id. Molestias incidunt dolorem magni est.</p>
+                    </div>
+                </div>
+        </div>
+    </div>
+    <div class="jahongir">
+        <div class="box">
+            <img src="img/jHONGIR.jpg" width="700PX" height="270PX" alt="">
+            <h1>jahongir</h1>
+            <p>men gayipov jahongir 2002 yil 3 sentabeida xorazim vilayati xonqa tunaida  tug`ulganman hozirda toshkent axborat texnalogiyali unversitetining dasturoy injenering yo`nalishi  2 qurs talabasiman men hashimle css va tailwindcss , c++,javascript  tilarini yahshi bilaman kelajakda yashi web dasturchi bo`lmoqchiman  hozirda engilish tilini urganyapman kelajakda chet el kampaniyalarizda ishlash orzuyim bor va magistraturani ham chet elda davom ettirmooqchiman pastda telegram va instagram akavntlarimni joylab qoyaman biror yordam kerak bo`lsa yozsayiz astoydil yordam beraman    </p>
+        </div>
+    </div>
+</body>
+</html>

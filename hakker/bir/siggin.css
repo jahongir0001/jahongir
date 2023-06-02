@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1d282e;
+    padding: 10px;
+    align-items: center;
+    width:98.5%;
+    margin-bottom: 9px;
+}   
+.ulli ul{
+    list-style:none;
+    display: flex;
+}
+.ulli ul li{
+    margin-right: 60px;
+}
+.ulli ul li a{
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 600;
+    color: #f18e39;
+}
+.sign{
+    display: flex;
+}
+.sign a{
+    text-decoration: none;
+    color: #f18e39;
+    font-size: 30px;
+    font-weight: 400;
+    margin-right:30px;
+}
+.btn1{
+    border: 2-px;
+    background-color: #f18e39;
+    color: #1d282e;
+    padding: 5px 20px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: 30px;
+}
+/* ssss */
+body {
+  background-image: url(img/matrix-356024_1280.webp);
+  font-family: "Roboto", sans-serif;
+  }
+  
+  .signup-box {
+    background-color: #cc7a33;
+    width: 360px;
+    height: 520px;
+    margin: auto;
+    border-radius: 10px;
+
+  }
+  
+  .login-box {
+    width: 360px;
+    height: 280px;
+    margin: auto;
+    border-radius: 3px;
+    background-color: white;
+  }
+  
+  h1 {
+    text-align: center;
+    padding-top: 15px;
+  }
+  
+  h4 {
+    text-align: center;
+  }
+  
+  form {
+    border-radius: 60px;
+    width: 300px;
+    margin-left: 20px;
+  }
+  
+  form label {
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight:600;
+  }
+  
+  form input {
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+  }
+  input[type="button"] {
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: #155242;
+    color: white;
+    font-size: 18px;
+  }
+  p {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+  }
+  .para-2 {
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    margin-top: -10px;
+  }
+  .para-2 a {
+    color: #49c1a2;
+  }
+  
+  
